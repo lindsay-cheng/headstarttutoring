@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HeadStart Tutoring</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/logos/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/logos/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/logos/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <nav>
+        <a href="#" class="logo">
+          <img src="/assets/logos/HeadStart_TutoringNoTextTransparent.png" 
+               alt="Logo Placeholder" 
+               style="height:40px; margin-right:10px;">
+          HeadStart Tutoring
+        </a>
+        <ul class="menu" id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#subjects">Subjects</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn" id="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Unlock Your Child's <span class="text-gradient">Academic Potential</span></h1>
+        <p>Expert tutoring services for grades 9-12 in Math and Science according to the Ontario curriculum. Our personalized approach helps students excel while building confidence and a love for learning.</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn">Get Started</a>
+          <a href="#services" class="btn btn-outline">Learn More</a>
+        </div>
+      </div>
+      <img src="/assets/body-images/sunnylin.png" alt="Students learning" class="hero-image">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="container">
+      <h2>About Us</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Worried about high school grades and competitive university admissions? At <strong>HeadStart Tutoring</strong>, we transform potential into achievement. Our team isn't just tutors—we are high-achieving university students currently excelling in demanding STEM fields like Engineering, Mathematics, and Medicine. We've recently navigated the Ontario high school curriculum ourselves and know exactly what it takes to succeed.          </p>
+          <p>We provide personalized online tutoring focused on building core understanding, critical thinking, and unshakable confidence. We translate challenging concepts into clear, manageable steps, fostering not just better grades, but a genuine enthusiasm for learning.          </p>
+          <p>Choose <strong>HeadStart Tutoring</strong> for expert guidance from relatable mentors committed to helping your child secure top marks and unlock offers from their desired universities. Invest in their future today.</p>
+        </div>
+        <div class="about-image">
+          <img src="/assets/body-images/unknown (2).png" alt="Tutoring session">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <p>We offer flexible online tutoring options designed to help your child thrive academically and build confidence in their Grade 9-12 studies.</p>
+      <div class="service-cards">
+        <!-- One-on-One Tutoring (unchanged) -->
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-user-graduate"></i></div>
+          <h3>One-on-One Tutoring</h3>
+          <p>Receive personalized attention with online sessions tailored to your child's specific learning style, pace, and academic goals. This focused approach helps address individual challenges and build on strengths effectively.</p>
+        </div>
+        <!-- Small Group Sessions (updated) -->
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-users"></i></div>
+          <h3>Small Group Sessions</h3>
+          <p>Learn together in engaging online groups (2-4 students). It's a great option for friends or classmates to tackle subjects collaboratively, ask questions, and learn from each other in a supportive environment. We keep groups small to ensure everyone benefits.</p>
+        </div>
+        <!-- Homework Help (unchanged) -->
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-book-reader"></i></div>
+          <h3>Homework Help</h3>
+          <p>Get support navigating tricky homework assignments and projects. We guide students to understand the core concepts, develop effective problem-solving skills, and complete their work accurately and confidently.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subjects Section -->
+  <section id="subjects" class="subjects section">
+    <div class="container">
+      <h2>Subjects We Teach</h2>
+      <p>Our knowledgeable tutors cover key Math and Science subjects for Grades 9-12, closely following the Ontario curriculum to ensure students are well-prepared for their coursework, assessments, and future studies.</p>
+      
+      <div class="subject-tabs">
+        <button class="tab-btn active" data-tab="math">Mathematics</button>
+        <button class="tab-btn" data-tab="science">Sciences</button>
+      </div>
+      
+      <div class="tab-content active" id="math-content">
+        <div class="subject-detail">
+          <h3><span class="subject-icon"><i class="fas fa-square-root-alt"></i></span> Mathematics</h3>
+          <p>Our comprehensive math tutoring helps students master the Ontario curriculum and develop strong problem-solving skills across all levels.</p>
+          <div class="skill-level">
+            <span class="level active">Grade 9</span>
+            <span class="level active">Grade 10</span>
+            <span class="level active">Grade 11</span>
+            <span class="level active">Grade 12</span>
+          </div>
+          <p><strong>Available Courses:</strong></p>
+          <div class="course-list">
+            <div class="course-item">
+              <h4>Advanced Functions (MHF4U)</h4>
+              <span class="course-duration">15 classes • 5 weeks</span>
+              <p>Polynomial, rational, exponential, logarithmic, and trigonometric functions with real-world applications.</p>
+            </div>
+            <div class="course-item">
+              <h4>Calculus and Vectors (MCV4U)</h4>
+              <span class="course-duration">21 classes • 7 weeks</span>
+              <p>Limits, derivatives, integrals, and vector geometry for university-level mathematics preparation.</p>
+            </div>
+            <div class="course-item">
+              <h4>Mathematics of Data Management (MDM4U)</h4>
+              <span class="course-duration">15 classes • 5 weeks</span>
+              <p>Statistics, probability, regression analysis, and data collection methods for informed decision-making.</p>
+            </div>
+          </div>
+          <p>Our math tutors use visual aids, real-world examples, and interactive exercises to make complex concepts accessible and engaging for high school students.</p>
+        </div>
+      </div>
+      
+      <div class="tab-content" id="science-content">
+        <div class="subject-detail">
+          <h3><span class="subject-icon"><i class="fas fa-flask"></i></span> Sciences</h3>
+          <p>Our science tutoring combines theoretical knowledge with practical applications, helping students succeed in the Ontario science curriculum.</p>
+          <div class="skill-level">
+            <span class="level active">Grade 9</span>
+            <span class="level active">Grade 10</span>
+            <span class="level active">Grade 11</span>
+            <span class="level active">Grade 12</span>
+          </div>
+          <p><strong>Available Courses:</strong></p>
+          <div class="course-list">
+            <div class="course-item">
+              <h4>Chemistry (SCH3U, SCH4U)</h4>
+              <span class="course-duration">15 classes • 5 weeks • $40/class</span>
+              <p>Atomic theory, chemical bonding, reactions, stoichiometry, and organic chemistry fundamentals.</p>
+            </div>
+            <div class="course-item">
+              <h4>Physics (SPH3U, SPH4U)</h4>
+              <span class="course-duration">15 classes • 5 weeks • $40/class</span>
+              <p>Mechanics, waves, electricity, magnetism, and modern physics concepts with laboratory applications.</p>
+            </div>
+
+            <!-- if jerry cui
+            <div class="course-item">
+              <h4>Computer Science (ICS3U, ICS4U)</h4>
+              <span class="course-duration">Individual sessions available • $40/hour</span>
+              <p>Programming fundamentals, algorithms, and software development using modern programming languages.</p>
+            </div>
+            -->
+
+          </div>
+          <p>We emphasize scientific inquiry, experimentation, critical analysis, and connecting scientific concepts to practical applications to deepen understanding.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="team section">
+    <div class="container">
+      <h2>Meet Our Tutors</h2>
+      <p>Our tutors are friendly, accomplished university students currently excelling in STEM programs like Engineering, Mathematics, and Medicine at top universities in Ontario. They bring strong subject knowledge, recent experience with the Ontario curriculum, and a genuine enthusiasm for helping high school students learn and succeed.</p>
+      <div class="team-members">
+        <!-- Corey Li -->
+        <div class="team-member">
+          <div class="member-img"><img src="/api/placeholder/400/400" alt="Corey"></div>
+          <div class="member-info">
+            <h3 class="member-name">Corey Li (Head Tutor)</h3>
+            <p class="member-role">Queen's University, Health Sciences</p>
+            <p></p>
+            <div class="member-subjects">
+              <span class="subject-tag">Chemistry</span>
+            </div>
+          </div>
+        </div>
+        <!-- Sunny Lin -->
+        <div class="team-member">
+          <div class="member-img"><img src="/api/placeholder/400/400" alt="Sunny"></div>
+          <div class="member-info">
+            <h3 class="member-name">Sunny Lin</h3>
+            <p class="member-role">Western University, Engineering</p>
+            <p></p>
+            <div class="member-subjects">
+              <span class="subject-tag">Calculus & Vectors</span>
+            </div>
+          </div>
+        </div>
+        <!-- Lindsay Cheng -->
+        <div class="team-member">
+          <div class="member-img"><img src="/api/placeholder/400/400" alt="Lindsay"></div>
+          <div class="member-info">
+            <h3 class="member-name">Lindsay Cheng</h3>
+            <p class="member-role">University of Toronto, Chemical Engineering</p>
+            <p></p>
+            <div class="member-subjects">
+              <span class="subject-tag">Advanced Functions</span>
+            </div>
+          </div>
+        </div>
+        <!-- Chris Han-->
+        <div class="team-member">
+          <div class="member-img"><img src="/api/placeholder/400/400" alt="Chris"></div>
+          <div class="member-info">
+            <h3 class="member-name">Chris Han</h3>
+            <p class="member-role">University of Waterloo, Mathematics</p>
+            <p></p>
+            <div class="member-subjects">
+              <span class="subject-tag">Calculus & Vectors</span>
+            </div>
+          </div>
+        </div>
+        <!-- Avery Wang-->
+        <div class="team-member">
+          <div class="member-img"><img src="/api/placeholder/400/400" alt="Avery"></div>
+          <div class="member-info">
+            <h3 class="member-name">Avery Wang</h3>
+            <p class="member-role">University of Toronto, Life Sciences</p>
+            <p></p>
+            <div class="member-subjects">
+              <span class="subject-tag">Advanced Functions</span>
+            </div>
+          </div>
+        </div>
+        <!-- Joey Chen-->
+        <div class="team-member">
+          <div class="member-img"><img src="/api/placeholder/400/400" alt="Joey"></div>
+          <div class="member-info">
+            <h3 class="member-name">Joey Chen</h3>
+            <p class="member-role">Western University, Engineering & Ivey Business School</p>
+            <p></p>
+            <div class="member-subjects">
+              <span class="subject-tag">Physics</span>
+            </div>
+          </div>
+        </div>
+        <!-- Kevin Li-->
+        <div class="team-member">
+          <div class="member-img"><img src="/api/placeholder/400/400" alt="Kevin"></div>
+          <div class="member-info">
+            <h3 class="member-name">Kevin Li</h3>
+            <p class="member-role">University of Waterloo, Mechatronics Engineering</p>
+            <p></p>
+            <div class="member-subjects">
+              <span class="subject-tag">Mathematics of Data Management</span>
+            </div>
+          </div>
+        </div>
+        <!-- Dongha Kim -->
+        <div class="team-member">
+          <div class="member-img"><img src="/api/placeholder/400/400" alt="Corey"></div>
+          <div class="member-info">
+            <h3 class="member-name">Dongha Kim</h3>
+            <p class="member-role">University of Waterloo, Mathematics</p>
+            <p></p>
+            <div class="member-subjects">
+              <span class="subject-tag">Physics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing section">
+    <div class="container">
+      <h2>Our Pricing</h2>
+      <p>We offer competitive rates for quality tutoring with transparent pricing and no hidden fees. Choose from a selection of comprehensive subject packages.</p>
+      
+      <!-- Subject Package Pricing -->
+      <div class="subject-packages">
+        <h3>Complete Subject Packages</h3>
+        <p>Comprehensive courses designed to cover entire subjects with structured learning paths.</p>
+        
+        <div class="pricing-cards">
+          <!-- Advanced Functions Package -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Advanced Functions (MHF4U)</h3>
+              <div class="price">$45<span>/class</span></div>
+              <div class="price-subtitle">5 weeks • 15 classes • $675/student</div>
+            </div>
+            <div class="pricing-body">
+              <ul>
+                <li>Polynomial functions</li>
+                <li>Rational & exponential functions</li>
+                <li>Logarithmic functions</li>
+                <li>Trigonometric functions</li>
+              </ul>
+              <a href="#contact" class="btn btn-pricing">Get Started</a>
+            </div>
+          </div>
+  
+          <!-- Calculus and Vectors Package -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Calculus and Vectors (MCV4U)</h3>
+              <div class="price">$40<span>/class</span></div>
+              <div class="price-subtitle">7 weeks • 21 classes • $840/student</div>
+            </div>
+            <div class="pricing-body">
+              <ul>
+                <li>Limits and continuity</li>
+                <li>Derivatives and applications</li>
+                <li>Integrals and applications</li>
+                <li>Vector geometry</li>
+              </ul>
+              <a href="#contact" class="btn btn-pricing">Get Started</a>
+            </div>
+          </div>
+  
+          <!-- Chemistry Package -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Chemistry (SCH3U/SCH4U)</h3>
+              <div class="price">$45<span>/class</span></div>
+              <div class="price-subtitle">5 weeks • 15 classes • $675/student</div>
+            </div>
+            <div class="pricing-body">
+              <ul>
+                <li>Atomic theory & bonding</li>
+                <li>Chemical reactions</li>
+                <li>Stoichiometry</li>
+                <li>Organic chemistry basics</li>
+              </ul>
+              <a href="#contact" class="btn btn-pricing">Get Started</a>
+            </div>
+          </div>
+  
+          <!-- Physics Package -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Physics (SPH3U/SPH4U)</h3>
+              <div class="price">$45<span>/class</span></div>
+              <div class="price-subtitle">5 weeks • 15 classes • $675/student</div>
+            </div>
+            <div class="pricing-body">
+              <ul>
+                <li>Mechanics and motion</li>
+                <li>Waves and sound</li>
+                <li>Electricity & magnetism</li>
+                <li>Modern physics concepts</li>
+              </ul>
+              <a href="#contact" class="btn btn-pricing">Get Started</a>
+            </div>
+          </div>
+  
+          <!-- Mathematics of Data Management Package -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Mathematics of Data Management (MDM4U)</h3>
+              <div class="price">$45<span>/class</span></div>
+              <div class="price-subtitle">5 weeks • 15 classes • $675/student</div>
+            </div>
+            <div class="pricing-body">
+              <ul>
+                <li>Statistics and probability</li>
+                <li>Regression analysis</li>
+                <li>Data collection methods</li>
+                <li>Informed decision-making</li>
+              </ul>
+              <a href="#contact" class="btn btn-pricing">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Additional Information Banner -->
+      <div class="pricing-notes">
+        <div class="additional-info">
+          <h3>Additional Information</h3>
+          <div class="info-items">
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-info-circle"></i></div>
+              <div class="info-text">
+                <p>All prices are in Canadian dollars (CAD).</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-info-circle"></i></div>
+              <div class="info-text">
+                <p>Payment is accepted via e-transfer before each session.</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="fas fa-info-circle"></i></div>
+              <div class="info-text">
+                <p>24-hour cancellation notice required to avoid charges.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <p>Have questions or ready to get started? Contact us today!</p>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Email</h4>
+              <p>coreyli026@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="#" class="footer-logo">HeadStart Tutoring</a>
+          <p>Empowering Ontario high school students to achieve academic excellence through personalized tutoring in Mathematics and Sciences.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#subjects">Subjects</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#team">Our Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Subjects</h3>
+          <ul>
+            <li><a href="#subjects">Advanced Functions</a></li>
+            <li><a href="#subjects">Calculus and Vectors</a></li>
+            <li><a href="#subjects">Data Management</a></li>
+            <li><a href="#subjects">Chemistry</a></li>
+            <li><a href="#subjects">Physics</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Contact Us</h3>
+          <ul>
+            <li><i class="fas fa-envelope"></i> coreyli026@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
